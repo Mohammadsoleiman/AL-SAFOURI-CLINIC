@@ -18,8 +18,8 @@ class AppointmentController extends Controller
     {
         if(auth()->user()->role=='doctor'){
         $appointment = Appointment::latest()->paginate(10);
-        return view('user.appointment.index',compact( 'appointment'))
-        ->with('i',(request()->input('page',1) -1) *5);}
+        return view('user.appointment.index',compact( 'appointment'));
+        }
         abort(401);
 
     }
@@ -44,7 +44,8 @@ class AppointmentController extends Controller
                          function ($attribute, $value, $fail) use ($request) {
                             $existingTime = DB::table('appointment')
                                 ->where('time', $value)
-                                ->where('did', [$request->input('did')]) // Exclude current did
+                                ->where('did', [$request->input('did')])
+                                ->whereDate('date', $request->input('date'))  // Exclude current did
                                 ->first();
 
                             if ($existingTime) {
@@ -52,10 +53,7 @@ class AppointmentController extends Controller
                             }
                         },
                    ],
-                   'name'=>'required|string|max:255',
 
-                   'Date'=>'required',
-                   'did'=>'required',
                      // other validation rules
                 ]);
 

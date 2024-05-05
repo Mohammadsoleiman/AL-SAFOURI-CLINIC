@@ -100,6 +100,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
           </nav>
         </div>
       </header>
+
     <div id="">
         <main class="py-4" >
             @yield('content')

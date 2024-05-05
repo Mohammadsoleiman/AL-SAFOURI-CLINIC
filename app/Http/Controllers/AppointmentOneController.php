@@ -39,7 +39,8 @@ class AppointmentOneController extends Controller
                          function ($attribute, $value, $fail) use ($request) {
                             $existingTime = DB::table('appointment')
                                 ->where('time', $value)
-                                ->where('did', [$request->input('did')]) // Exclude current did
+                                ->where('did', [$request->input('did')])
+                                ->whereDate('date', $request->input('date'))// Exclude current did
                                 ->first();
 
                             if ($existingTime) {
@@ -47,10 +48,7 @@ class AppointmentOneController extends Controller
                             }
                         },
                    ],
-                   'name'=>'required|string|max:255',
 
-                   'Date'=>'required',
-                   'did'=>'required',
 
                      // other validation rules
                 ]);

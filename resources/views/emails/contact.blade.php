@@ -8,7 +8,7 @@
 <h3>message:{{ $data['message'] }}</h3>
 
 <x-mail::button :url="''">
-Button Text
+Website
 </x-mail::button>
 
 Thanks,<br>

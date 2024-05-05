@@ -35,6 +35,7 @@ class XrayController extends Controller
                          function ($attribute, $value, $fail) use ($request) {
                             $existingTime = DB::table('x-ray')
                                 ->where('time', $value)
+                                ->whereDate('date', $request->input('date'))
                                 ->first();
 
                             if ($existingTime) {
@@ -42,9 +43,7 @@ class XrayController extends Controller
                             }
                         },
                    ],
-                   'name'=>'required|string|max:255',
-                   'phone'=>'required|regex:/^[0-9]{8}$/|unique:x-ray',
-                   'Date'=>'required',
+
 
                      // other validation rules
                 ]);

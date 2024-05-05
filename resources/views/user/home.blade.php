@@ -16,6 +16,7 @@
 
                     {{ __('You are logged in!') }}
                 </div> --}}
+
                 <section class="doctor_section layout_padding">
                     <div class="container">
                       <div class="heading_container heading_center">

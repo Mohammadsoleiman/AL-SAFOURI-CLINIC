@@ -35,11 +35,11 @@ if(auth()->user()->role=='user'){
     {
 
         $request-> validate([
-            'name'=>'required|string|max:255',
-            'price'=>['required','intege'],
-            'amount'=>['required','integer|max:255'],
-            'production_date'=>'required',
-            'end_date'=>'required',
+            'name' => 'required|string|max:255',
+            'price' => 'required|integer',
+            'amount' => 'required|integer|max:255',
+            'production_date' => 'required',
+            'end_date' => 'required',
 
         ]);
         $input = $request->all();
@@ -77,6 +77,14 @@ if(auth()->user()->role=='user'){
 
     public function update(Request $request, string $id)
     {
+        $request-> validate([
+            'name' => 'required|string|max:255',
+            'price' => 'required|integer',
+            'amount' => 'required|integer|max:255',
+            'production_date' => 'required',
+            'end_date' => 'required',
+
+        ]);
         $pharmacys = Pharmacy::find($id);
         $input = $request->all();
         $pharmacys->update($input);
