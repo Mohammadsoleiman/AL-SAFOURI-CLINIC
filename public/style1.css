@@ -1,0 +1,273 @@
+
+html, body {
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+.form-error{
+    margin: 0;
+    font-size:.8rem;
+    color:red;
+
+}
+
+.gfg {
+	height: 50px;
+	width: 50px;
+
+}
+.container-fluid ,#bdSidebar {
+    background: #34AD93;
+    color:white ;
+}
+
+
+.mynav {
+	color: #fff;
+}
+
+.mynav li a {
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	padding: 8px 5px;
+}
+
+.mynav li a.active {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.mynav li a:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.mynav li a i {
+	width: 25px;
+	text-align: center;
+}
+
+.notification-badge {
+	background-color: rgba(255, 255, 255, 0.7);
+	float: right;
+	color: #222;
+	font-size: 14px;
+	padding: 0px 8px;
+	border-radius: 2px;
+}
+.table{
+    border-collapse: collapse;
+}
+    .btn-search{
+        background-color: #34AD93;
+        color: #fff;
+        border-radius:9px;
+        border: 2px solid #fff;
+        padding: 6px;
+    height: 41px;
+        width: 45px;
+
+    }
+    .btn-search2{
+        background-color: #34AD93;
+        color: #fff;
+        border-radius:9px;
+        border: 2px solid #fff;
+        padding: 6px;
+    height: 41px;
+        width: 45px;
+
+    }
+.name-dr{font-size: 20px;}
+.select-dr{ padding: 5px;}
+.btn-dr{
+    background-color: #34AD93;
+    color: #fff;
+    border-radius:9px;
+    border: 2px solid #fff;
+    padding: 5px;
+    font-size: 13px;
+}
+.btn-dr:hover{
+    background-color: #fff;
+    color: #34AD93;
+    border: 2px solid #34AD93;
+}
+
+
+
+    @media screen and (max-width: 500px) {
+        #meun{background:#34AD93 ;}
+
+    .table{
+        border: 3px solid #34AD93;
+margin-top: 0px;
+    }
+    .table thead tr{
+        display: none;
+    }
+    .table tr{
+        display: block;
+    }
+    .table th, .table td{
+        padding: .5em
+
+    }
+    .table td{
+        text-align: right;
+        display: block;
+        font-size: 1em;
+        border-bottom: none;
+    }
+    .table td::before{
+        content: attr( data-title) ": ";
+        float: left;
+
+    }
+    tbody tr:nth-child(even){
+        background-color:#34AD93;
+        color: white;
+    }
+    #form1{
+        padding: 2px;
+        margin-right: 0px;
+        margin-top: -29px;
+        margin-left: 0px;
+
+
+    }
+    .btn-search{
+        padding: 2px;
+        width: 40px;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        margin-right: 11px;
+
+        height: 33px;
+    }
+    #form2{
+        padding: 2px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+
+    }
+    .btn-search2{
+        padding: 2px;
+        width: 40px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-right: 11px;
+        height: 33px;
+
+    }
+    .name-dr{font-size: 12px;
+    font-weight: bold;}
+.select-dr{
+    padding: 3px;
+    width: 115px;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.btn-dr{
+    background-color: #34AD93;
+    color: #fff;
+    border-radius:9px;
+    border: 2px solid #fff;
+    padding: 2px;
+    font-size: 11px;
+}
+#add{
+    margin-top: -10px;
+}
+
+        }
+        @media (min-width:500px)and (max-width:950px){
+            #meun{background:#34AD93 ;}
+
+            .table{
+                border: 3px solid #34AD93;
+
+            }
+            .table thead tr{
+                display: none;
+            }
+            .table tr{
+                display: block;
+            }
+            .table th, .table td{
+                padding: .5em
+
+            }
+            .table td{
+                text-align: right;
+                display: block;
+                font-size: 1em;
+                border-bottom: none;
+            }
+            .table td::before{
+                content: attr( data-title) ": ";
+                float: left;
+
+            }
+            tbody tr:nth-child(even){
+                background-color:#34AD93;
+                color: white;
+            }
+            #form1{
+                padding: 2px;
+                margin-right: 0px;
+                margin-top: -29px;
+                margin-left: 0px;
+
+
+            }
+            .btn-search{
+                padding: 2px;
+                width: 40px;
+                margin-top: -30px;
+                margin-bottom: 10px;
+                margin-right: 11px;
+
+                height: 33px;
+            }
+            #form2{
+                padding: 2px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-left: 0px;
+
+
+            }
+            .btn-search2{
+                padding: 2px;
+                width: 40px;
+                margin-top: 0px;
+                margin-bottom: 10px;
+                margin-right: 11px;
+                height: 33px;
+
+            }
+            .name-dr{font-size: 15px;
+            font-weight: bold;
+        }
+        .select-dr{
+            padding: 4px;
+            width: 150px;
+            font-size: 12px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        .btn-dr{
+            background-color: #34AD93;
+            color: #fff;
+            border-radius:9px;
+            border: 2px solid #fff;
+            padding: 3px;
+            font-size: 11px;
+        }
+        }
+
+
