@@ -255,9 +255,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Mohammad Soleiman**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mohammadsoleiman)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammadsoleiman)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammad@alsafouri.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohammadsoleiman)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammadsoleiman/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadsoleiman6@gmail.com)
 
 **Project Link:** [https://github.com/Mohammadsoleiman/AL-SAFOURI-CLINIC](https://github.com/Mohammadsoleiman/AL-SAFOURI-CLINIC)
 
@@ -275,6 +275,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Thank+You+for+Visiting!;Star+⭐+this+repo+if+you+like+it;Happy+Coding+🚀" alt="Typing SVG" />
-</p>
