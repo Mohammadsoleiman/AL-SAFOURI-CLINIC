@@ -92,8 +92,7 @@
 
 ## 🧩 **System Architecture**
 
-<details>
-<summary><b>📂 Click to view Project Structure</b></summary>
+### 📂 **Project Structure**
 ```
 AL-SAFOURI-CLINIC/
 │
@@ -115,15 +114,8 @@ AL-SAFOURI-CLINIC/
 │   ├── views/
 │   │   ├── auth/
 │   │   ├── admin/
-│   │   │   ├── doctors/
-│   │   │   ├── patients/
-│   │   │   └── appointments/
 │   │   ├── doctor/
-│   │   │   ├── patients/
-│   │   │   └── appointments/
 │   │   ├── patient/
-│   │   │   ├── appointments/
-│   │   │   └── profile/
 │   │   └── layouts/
 │   └── css/
 │
@@ -137,7 +129,6 @@ AL-SAFOURI-CLINIC/
 └── 📁 config/
 ```
 
-</details>
 
 ---
 
