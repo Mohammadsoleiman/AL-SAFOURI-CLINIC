@@ -91,10 +91,9 @@
 ---
 
 ## 🧩 **System Architecture**
-<details>
-  <summary>
-### 📂 **Project Structure**
 
+<details>
+<summary><b>📂 Click to view Project Structure</b></summary>
 ```
 AL-SAFOURI-CLINIC/
 │
@@ -102,64 +101,33 @@ AL-SAFOURI-CLINIC/
 │   ├── Http/
 │   │   ├── Controllers/
 │   │   │   ├── Admin/
-│   │   │   │   ├── DashboardController.php
-│   │   │   │   ├── DoctorController.php
-│   │   │   │   ├── PatientController.php
-│   │   │   │   └── AppointmentController.php
 │   │   │   ├── Doctor/
-│   │   │   │   ├── DashboardController.php
-│   │   │   │   ├── PatientController.php
-│   │   │   │   └── AppointmentController.php
 │   │   │   └── Patient/
-│   │   │       ├── DashboardController.php
-│   │   │       ├── AppointmentController.php
-│   │   │       └── ProfileController.php
 │   │   ├── Middleware/
-│   │   │   ├── RoleMiddleware.php
-│   │   │   └── CheckRole.php
 │   │   └── Requests/
 │   └── Models/
-│       ├── User.php
-│       ├── Doctor.php
-│       ├── Patient.php
-│       └── Appointment.php
 │
 ├── 📁 database/
 │   ├── migrations/
-│   │   ├── create_users_table.php
-│   │   ├── create_doctors_table.php
-│   │   ├── create_patients_table.php
-│   │   └── create_appointments_table.php
 │   └── seeders/
-│       ├── AdminSeeder.php
-│       └── RoleSeeder.php
 │
 ├── 📁 resources/
 │   ├── views/
 │   │   ├── auth/
-│   │   │   ├── login.blade.php
-│   │   │   └── register.blade.php
 │   │   ├── admin/
-│   │   │   ├── dashboard.blade.php
 │   │   │   ├── doctors/
 │   │   │   ├── patients/
 │   │   │   └── appointments/
 │   │   ├── doctor/
-│   │   │   ├── dashboard.blade.php
 │   │   │   ├── patients/
 │   │   │   └── appointments/
 │   │   ├── patient/
-│   │   │   ├── dashboard.blade.php
 │   │   │   ├── appointments/
 │   │   │   └── profile/
 │   │   └── layouts/
-│   │       ├── app.blade.php
-│   │       └── dashboard.blade.php
 │   └── css/
-│       └── app.css
 │
 ├── 📁 routes/
-│   └── web.php
 │
 ├── 📁 public/
 │   ├── css/
@@ -167,12 +135,10 @@ AL-SAFOURI-CLINIC/
 │   └── images/
 │
 └── 📁 config/
-    ├── database.php
-    └── auth.php
 ```
 
-  </summary>
-  </details>
+</details>
+
 ---
 
 ## 🚀 **Installation Guide**
