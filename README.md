@@ -93,8 +93,9 @@
 ## 🧩 **System Architecture**
 
 <details>
-<summary><b>📂 Project Structure</b></summary>
 ```
+<summary><b>📂 Project Structure</b></summary>
+
 AL-SAFOURI-CLINIC/
 │
 ├── 📁 app/
@@ -171,7 +172,7 @@ AL-SAFOURI-CLINIC/
 ```
 
 </details>
-
+```
 ---
 
 ## 🚀 **Installation Guide**
@@ -254,30 +255,7 @@ php artisan serve
 
 ---
 
-## 🧪 **Demo Credentials**
 
-<table align="center">
-  <tr>
-    <th>Role</th>
-    <th>Email</th>
-    <th>Password</th>
-  </tr>
-  <tr>
-    <td>👑 <b>Admin</b></td>
-    <td><code>admin@alsafouri.com</code></td>
-    <td><code>Admin@2024</code></td>
-  </tr>
-  <tr>
-    <td>👨‍⚕️ <b>Doctor</b></td>
-    <td><code>doctor@alsafouri.com</code></td>
-    <td><code>Doctor@2024</code></td>
-  </tr>
-  <tr>
-    <td>🧑‍🦽 <b>Patient</b></td>
-    <td><code>patient@alsafouri.com</code></td>
-    <td><code>Patient@2024</code></td>
-  </tr>
-</table>
 
 ---
 
@@ -304,34 +282,7 @@ php artisan serve
 
 ---
 
-## 📊 **Database Schema**
-```sql
-📋 Main Tables:
-├─ users (id, name, email, password, role)
-├─ doctors (id, user_id, specialization, license_number)
-├─ patients (id, user_id, dob, blood_type, address)
-├─ appointments (id, patient_id, doctor_id, date, status)
-├─ medical_records (id, patient_id, diagnosis, prescription)
-└─ schedules (id, doctor_id, day, start_time, end_time)
-```
 
----
-
-## 🎨 **Screenshots**
-
-<details>
-<summary><b>View Dashboard Previews</b></summary>
-
-### Admin Dashboard
-![Admin Dashboard](https://via.placeholder.com/800x400/FF2D20/FFFFFF?text=Admin+Dashboard)
-
-### Doctor Dashboard
-![Doctor Dashboard](https://via.placeholder.com/800x400/7952B3/FFFFFF?text=Doctor+Dashboard)
-
-### Patient Dashboard
-![Patient Dashboard](https://via.placeholder.com/800x400/4479A1/FFFFFF?text=Patient+Dashboard)
-
-</details>
 
 ---
 
