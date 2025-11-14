@@ -53,9 +53,15 @@
                   <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>
+              @auth
+
+
+
+
               <h5 style="text-transform: capitalize">
                 {{ Auth::user()->name }}
               </h5>
+              @endauth
               <h6 class="">
                 All Appointment
               </h6>

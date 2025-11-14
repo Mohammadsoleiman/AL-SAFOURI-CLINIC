@@ -107,9 +107,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </main>
     </div>
     <script type="text/javascript" src="{{ url('js/jquery-3.4.1.min.js') }}"></script>
-    <!-- popper js -->
-
- <!-- bootstrap js -->
  <script type="text/javascript" src="{{url('js/bootstrap.js')  }}"></script>
 
 </body>

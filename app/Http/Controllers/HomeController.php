@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -37,6 +38,7 @@ class HomeController extends Controller
                 return view('user.home');
             }
         }
+
         public function home(){
             return view( 'user.home');
         }
@@ -61,4 +63,3 @@ class HomeController extends Controller
         }
 
     }
-

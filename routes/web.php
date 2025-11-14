@@ -16,6 +16,7 @@ use App\Http\Controllers\AppointmentOneController;
 use App\Http\Controllers\XrayController;
 use App\Http\Controllers\HistoryController;
 use App\Http\Controllers\HistAdminController;
+use App\Http\Controllers\displayController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,8 @@ Route::get('/', function () {
 
     return view('welcome');
 });
+// Route::get('/', [displayController::class, 'display'])->name('home');
+
 
 Route::resource('/messages', MessageController::class);
 Route::post('/messages', [MessageController::class, 'store'])->name('messages.store');
