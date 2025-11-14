@@ -93,8 +93,9 @@
 ## 🧩 **System Architecture**
 
 
-<details>
-<summary><b>📂 Project Structure</b></summary>
+## 🧩 **System Architecture**
+
+### 📂 **Project Structure**
 ```
 AL-SAFOURI-CLINIC/
 │
@@ -171,7 +172,6 @@ AL-SAFOURI-CLINIC/
     └── auth.php
 ```
 
-</details>
 ---
 
 ## 🚀 **Installation Guide**
