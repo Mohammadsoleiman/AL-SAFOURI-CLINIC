@@ -91,10 +91,10 @@
 ---
 
 ## 🧩 **System Architecture**
-
-### 📂 **Project Structure**
 <details>
   <summary>
+### 📂 **Project Structure**
+
 ```
 AL-SAFOURI-CLINIC/
 │
