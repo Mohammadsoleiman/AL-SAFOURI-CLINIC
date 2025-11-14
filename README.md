@@ -26,7 +26,7 @@
 
 **A comprehensive healthcare management platform built with Laravel, featuring sophisticated role-based access control, real-time appointment scheduling, and seamless patient-doctor interaction.**
 
-[🚀 Live Demo](#-demo-credentials) • [📖 Documentation](#-installation-guide) • [🤝 Contributing](#-contributing) • [📧 Contact](#-contact)
+[🚀 Live Demo](https://lavenderblush-rhinoceros-452971.hostingersite.com/) • [📖 Documentation](#-installation-guide) • [🤝 Contributing](#-contributing) • [📧 Contact](#-contact)
 
 </div>
 
@@ -112,12 +112,8 @@ AL-SAFOURI-CLINIC/
 │
 ├── 📁 resources/
 │   ├── views/
-│   │   ├── auth/
-│   │   ├── admin/
-│   │   ├── doctor/
-│   │   ├── patient/
-│   │   └── layouts/
-│   └── css/
+│   │  
+│   └── css/ 
 │
 ├── 📁 routes/
 │
